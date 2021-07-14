@@ -12,9 +12,10 @@ nav {
   height: 44px;
   width: 1160px;
   font-size: 16px;
-  padding: 20px;
+  margin-top: 42px;
+  margin-bottom: 67px;
 }
-a {
+nav > a {
   text-decoration: none;
   color: white;
   padding-right: 36px;
@@ -25,6 +26,8 @@ a {
   color: white;
   background-color: #e02c6d;
   font-size: 16px;
+  margin-top: 42px;
+  margin-bottom: 67px;
 }
 main {
   display: flex;
@@ -45,12 +48,12 @@ main {
   width: 50%;
 }
 .hulf-width img {
-  width: 100%;
+  width: 90%;
   padding-top: 20px;
 }
 .first-part-text {
   padding-left: 100px;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 .watch-button {
   height: 44px;
@@ -62,7 +65,7 @@ main {
 .secend-part {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* grid-row-gap: 26px; */
+  margin-top: 70px;
 }
 .blog {
   border: 1px solid white;
@@ -76,45 +79,19 @@ main {
 .blog img {
   width: 300px;
   height: 256px;
-}
-.blog-info {
-}
-.blog-title {
-}
-
-/* article {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  justify-content: center;
-  width: 1050px;
-  border: 1px solid red;
-}
-.article-items {
-  border: 1px solid white;
-  border-radius: 5px;
-  box-shadow: 10px 5px 25px gray;
-  height: 474px;
-  width: 330px;
-  margin: 13.5px 30px;
-}
-.article-items img {
-  width: 300px;
-  height: 256px;
   padding: 4% 4% 0 4%;
   border-radius: 2%;
 }
-.article-text {
-  padding: 0 4% 0 4%;
-} */
+.blog-info {
+  padding: 0% 4% 0 4%;
+}
 .third-part {
   display: flex;
-  border: 1px solid red;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 165px;
+  margin-bottom: 158px;
 }
 .third-part-text {
-  padding: 20px 40px 0 100px;
+  padding: 40px 60px 0 180px;
 }
 .third-part h1 {
   font-size: 48px;
@@ -128,6 +105,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 63px;
 }
 footer img {
   width: 60%;
