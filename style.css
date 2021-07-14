@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+header {
+  background-color: #2d25a0;
+  display: flex;
+  justify-content: center;
+}
+nav {
+  height: 44px;
+  width: 1160px;
+  font-size: 16px;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding-right: 36px;
+}
+.login-button {
+  height: 44px;
+  width: 200px;
+  color: white;
+  background-color: #e02c6d;
+  font-size: 16px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first-part {
+  display: flex;
+  height: 677px;
+  background-color: #2d25a0;
+}
+.first-part h1 {
+  font-size: 64px;
+  color: white;
+  font-weight: bold;
+}
+.hulf-width {
+  width: 50%;
+}
+.hulf-width img {
+  width: 100%;
+  padding-top: 20px;
+}
+.first-part-text {
+  padding-left: 100px;
+  padding-top: 50px;
+}
+.watch-button {
+  height: 44px;
+  width: 168px;
+  background-color: #e02c6d;
+  color: white;
+  font-size: 16px;
+}
+.secend-part {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-row-gap: 26px; */
+}
+.blog {
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 10px 5px 25px gray;
+  height: 474px;
+  width: 330px;
+  margin: 13.5px 30px;
+  display: flex;
+}
+.blog img {
+  width: 300px;
+  height: 256px;
+}
+.blog-info {
+}
+.blog-title {
+}
+
+/* article {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  width: 1050px;
+  border: 1px solid red;
+}
+.article-items {
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 10px 5px 25px gray;
+  height: 474px;
+  width: 330px;
+  margin: 13.5px 30px;
+}
+.article-items img {
+  width: 300px;
+  height: 256px;
+  padding: 4% 4% 0 4%;
+  border-radius: 2%;
+}
+.article-text {
+  padding: 0 4% 0 4%;
+} */
+.third-part {
+  display: flex;
+  border: 1px solid red;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.third-part-text {
+  padding: 20px 40px 0 100px;
+}
+.third-part h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.third-part img {
+  width: 80%;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer img {
+  width: 60%;
+  padding-left: 250px;
+}
+footer i {
+  padding: 10px;
+}
