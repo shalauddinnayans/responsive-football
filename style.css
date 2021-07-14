@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 html {
+  /* 100% = 10rem defult fond size  */
+  /* so divide 10/16=.625*100=62.5 */
   font-size: 62.5%;
 }
 body {
@@ -44,6 +46,8 @@ main {
 .hulf-width {
   width: 50%;
 }
+
+/* first part start  */
 .first-part {
   display: flex;
   height: 60.7em;
@@ -74,7 +78,15 @@ main {
   color: white;
   text-decoration: none;
 }
-.secend-part {
+.watch-button:hover {
+  background-color: red;
+}
+.fa-sign-in-alt:hover {
+  padding-right: 1em;
+}
+/* first part end  */
+/* Blog part start  */
+.second-part {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 7em;
@@ -97,7 +109,8 @@ main {
 .blog-info {
   padding: 0% 4% 0 4%;
 }
-
+/* blog part end  */
+/* optional part start  */
 .third-part {
   display: flex;
   margin-top: 16.5em;
@@ -116,6 +129,7 @@ main {
 .third-part img {
   width: 80%;
 }
+/* optional part end  */
 /* footer part start*/
 footer {
   display: flex;
@@ -131,6 +145,7 @@ footer img {
 footer a {
   padding: 1em;
 }
+/* footer part end  */
 
 /* mobile version */
 @media only screen and (max-width: 688px) {
@@ -156,7 +171,7 @@ footer a {
   .first-part h1 {
     font-size: 4rem;
   }
-  .secend-part {
+  .second-part {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin-top: 5em;
@@ -212,7 +227,7 @@ footer a {
   .first-part h1 {
     font-size: 4.8rem;
   }
-  .secend-part {
+  .second-part {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 7em;
